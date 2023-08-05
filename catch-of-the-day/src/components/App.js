@@ -12,7 +12,7 @@ class App extends React.Component {
         <StorePicker></StorePicker>
         <div className="catch-of-the-day">
           <div className="menu">
-            <Header />
+            <Header tagline="Fresh Fish Daily" />
           </div>
           <Inventory />
           <Order />
