@@ -9,7 +9,6 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <StorePicker></StorePicker>
         <div className="catch-of-the-day">
           <div className="menu">
             <Header tagline="Fresh Fish Daily" />
