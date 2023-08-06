@@ -9,7 +9,7 @@ class StorePicker extends React.Component {
     console.log(this);
     console.log(this.myInput.current.value);
   }
-
+  
   render() {
     return (
       <form className="store-selector" onSubmit={this.goToStore}>
